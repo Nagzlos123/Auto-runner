@@ -1,5 +1,6 @@
 # Auto-runner
 My first unity 3D game
+Unity ver: 2019.4.21.f1
 ## Description
 An endless auto runner game using 3D assets. The player's goal is to get as many golden spheres as possible.
 
