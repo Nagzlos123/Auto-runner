@@ -7,8 +7,8 @@ using TMPro;
 public class CollectSphere : MonoBehaviour
 {
     public AudioSource goldSphireFX;
-    public Text goldSphireNumber;
-    public Text allGoldSphireNumber;
+    public TextMeshProUGUI goldSphireNumber;
+    public TextMeshProUGUI allGoldSphireNumber;
     public int goldSphireConter = 0;
 
     private Animator childAnimator;
