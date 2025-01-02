@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CollectSphere : MonoBehaviour
 {
@@ -13,8 +14,8 @@ public class CollectSphere : MonoBehaviour
     private Animator childAnimator;
     private GameObject parentObject;
     [SerializeField]private GameManeger gameManeger;
-    [SerializeField] private Text pauseGoldSphireNumber;
-    [SerializeField] private Text totalGoldSphireNumber;
+    [SerializeField] private TextMeshProUGUI pauseGoldSphireNumber;
+    [SerializeField] private TextMeshProUGUI totalGoldSphireNumber;
 
 
     void Start()
