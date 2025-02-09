@@ -15,7 +15,7 @@ public class GenerateSet : MonoBehaviour
 
     public void GenerateSetOfObjects()
     {
-        setNumber = Random.Range(0, 2);
+        setNumber = Random.Range(0, setsOfObjects.Length - 1);
         setsOfObjects[setNumber].SetActive(true);
     }
 }
