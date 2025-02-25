@@ -30,7 +30,7 @@ public class GenerateLevel : MonoBehaviour
 
         IEnumerator GenerateSection()
         {
-            sectionNumber = Random.Range(0,sections.Length - 1);
+            sectionNumber = Random.Range(0,1);
             //GameObject temp =  Instantiate(sections[sectionNumber], new Vector3(0, 0, pozytionZ), Quaternion.identity);
             GameObject temp = Instantiate(sections[sectionNumber], nextSpawnPointV, Quaternion.identity);
             nextSpawnPointV = temp.transform.GetChild(1).transform.position;
